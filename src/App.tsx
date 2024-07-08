@@ -1,9 +1,10 @@
-import Todo from "./components/Todos";
-
+import { TodoAdd } from "./components/TodoAdd";
+import Todos from "./components/Todos";
 export default function App() {
   return (
-    <>
-      <Todo />
-    </>
+    <div>
+      <TodoAdd />
+      <Todos />
+    </div>
   );
 }
